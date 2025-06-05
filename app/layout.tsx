@@ -5,7 +5,7 @@ import "./globals.css";
 const geistSans = localFont({
   src: [
     {
-      path: "../public/fonts/GeistVariable.woff2",
+      path: "../public/fonts/Geist-VariableFont_wght.ttf",
       weight: "100 900",
     },
   ],
@@ -16,7 +16,7 @@ const geistSans = localFont({
 const geistMono = localFont({
   src: [
     {
-      path: "../public/fonts/GeistMonoVariable.woff2",
+      path: "../public/fonts/GeistMono-VariableFont_wght.ttf",
       weight: "100 900",
     },
   ],
