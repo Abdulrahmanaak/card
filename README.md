@@ -1,5 +1,32 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Setup
+
+Make sure [Docker Desktop](https://www.docker.com/products/docker-desktop/) is installed **and running**.
+
+### Install Supabase CLI
+
+- **Windows** (via [Scoop](https://scoop.sh/))
+
+  ```powershell
+  scoop install supabase
+  ```
+
+- **macOS/Linux** (via Homebrew)
+
+  ```bash
+  brew install supabase/tap/supabase
+  ```
+
+### Local development
+
+Reset the local database and start the dev server:
+
+```bash
+supabase db reset
+npm run dev
+```
+
 ## Getting Started
 
 First, run the development server:
