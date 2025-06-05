@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "test": "vitest run"
     "supabase:reset": "supabase db reset"
   },
   "dependencies": {
@@ -24,9 +25,11 @@
     "autoprefixer": "^10.4.21",
     "eslint": "^9.28.0",
     "eslint-config-next": "^15.3.3",
+    "jsdom": "^26.1.0",
     "postcss": "^8.5.4",
     "supabase": "^2.24.3",
     "tailwindcss": "^4.1.8",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^3.2.2"
   }
 }
